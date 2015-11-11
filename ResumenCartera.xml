@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ <Module specificationVersion='2'>
+   <ModulePrefs title="Resumen Cartera Contratos" height="600" author="HSM" description="OpenSocial URL Gadget">
+   </ModulePrefs>
+<Content type="url" href="ResumenCartera.html"/>
+ </Module>
