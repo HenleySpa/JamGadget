@@ -2,5 +2,5 @@
  <Module specificationVersion='2'>
    <ModulePrefs title="BO" height="600" width="1600" author="HSM" description="OpenSocial URL Gadget">
    </ModulePrefs>
-<Content type="url" href="https://www.turbus.cl/wtbus/indexCompra.jsf"/>
+<Content type="url" href="https://www.turbus.cl/turbus/opencms/07_Oficinas/mapaOficinas.jsp"/>
  </Module>
