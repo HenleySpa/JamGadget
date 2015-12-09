@@ -5,3 +5,9 @@
    </ModulePrefs>
 <Content type="url" href="http://www.henley.cl"/>
 </Module>
+<?xml version="1.0" encoding="UTF-8" ?>
+ <Module specificationVersion='2'>
+   <ModulePrefs title="BO" height="600" width="1600" author="HSM" description="OpenSocial URL Gadget">
+   </ModulePrefs>
+<Content type="url" href="https://www.turbus.cl"/>
+ </Module>
