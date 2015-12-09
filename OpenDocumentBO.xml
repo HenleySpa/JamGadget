@@ -3,5 +3,5 @@
 <Module specificationVersion='2'>      <!--ESTO ES OBLIGATORIO -->
    <ModulePrefs title="Open Document BO" height="600">
    </ModulePrefs>
-<Content type="url" href="http://www.henley.cl/"/>
+<Content type="url" href="http://www.henley.cl"/>
 </Module>
