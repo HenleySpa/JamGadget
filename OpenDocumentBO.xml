@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- Gadget SAP JAM - OpenDocument -  Henley -->
- <Module specificationVersion='2'>
-   <ModulePrefs title="BO" height="600" width="1600" author="HSM" description="OpenSocial URL Gadget">
+<Module specificationVersion='2'>      <!--ESTO ES OBLIGATORIO -->
+   <ModulePrefs title="Open Document BO" height="600">
    </ModulePrefs>
-<Content type="url" href="https://www.turbus.cl"/>
- </Module>
+<Content type="url" href="http://perdidaenunmundodelibros.blogspot.cl/p/secciones.html"/>
+</Module>
