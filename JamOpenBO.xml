@@ -7,6 +7,6 @@
         <Require feature="dynamic-height"/>
         <Require feature="minimessage"/>
     </ModulePrefs>
-    <Content type="html" href="http://www.google.html"/>
+    <Content type="html" href="https://www.google.cl"/>
     </Content>
 </Module>
