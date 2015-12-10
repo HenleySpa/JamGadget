@@ -6,7 +6,7 @@
     <Content type="html">
         <![CDATA[
             <Script language="javascript">
-                 docmument.write("hello world");
+                 alert ("Mi primer programa en Javascript");
             </Script>
         ]]>
     </Content>
