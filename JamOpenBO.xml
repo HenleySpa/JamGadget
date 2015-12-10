@@ -6,5 +6,5 @@
       <Require feature="dynamic-height"/>
       <Require feature="minimessage"/>
    </ModulePrefs>
-<Content type="url" href="JamOpenBO.js"/>
+<Content type="url" href="JamOpenBO.html"/>
 </Module>
