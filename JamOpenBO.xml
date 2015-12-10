@@ -2,7 +2,7 @@
 <!-- Jam Open BO xml -->
 
 <Module specificationVersion='2'>
-    <ModulePrefs title="Jam Open BO"> </ModulePrefs>
-    <Content type="html" href="https://www.google.cl"/>
+    <ModulePrefs title="Jam Open BO" height="250"> </ModulePrefs>
+    <Content type="html" href="http://help.sap.com/download/documentation/sapjam/developer/index.html#opensocial/concepts/tutorial-CompleteCodeExample.html"/>
     </Content>
 </Module>
