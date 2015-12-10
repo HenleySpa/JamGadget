@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?> 
 
 <Module specificationVersion='2'>
-    <ModulePrefs title="Jam - Reporte BO"  author="Henley SPA" height="250" width="500">
+    <ModulePrefs title="Jam - SAP BO" height="600" width="800" author="Henley SPA" description="Gadget para documento Webintelligence">
     </ModulePrefs>
     <Content type="html">
         <![CDATA[
