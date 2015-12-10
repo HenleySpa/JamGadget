@@ -1,10 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<!-- Gadget SAP JAM - OpenDocument -  Henley -->
-<Module specificationVersion='2'>      <!--ESTO ES OBLIGATORIO -->
-   <ModulePrefs title="Open Document BO" height="500">
-      <Require feature="wave"/>
-      <Require feature="dynamic-height"/>
-      <Require feature="minimessage"/>
-   </ModulePrefs>
-<Content type="url" href="JamOpenBO.html"/>
+<?xml version="1.0" encoding="UTF-8" ?> 
+<!-- Tutorial_01_Hello_World (XML) -->
+
+<Module specificationVersion='2'>
+    <ModulePrefs title="Tutorial_01_Hello_World">
+    </ModulePrefs>
+    <Content type="html">
+        <![CDATA[
+            Hello, world!
+        ]]>
+    </Content>
 </Module>
