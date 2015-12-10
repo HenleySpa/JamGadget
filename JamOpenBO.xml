@@ -2,11 +2,7 @@
 <!-- Jam Open BO xml -->
 
 <Module specificationVersion='2'>
-    <ModulePrefs title="Jam Open BO">
-        <Require feature="wave"/>
-        <Require feature="dynamic-height"/>
-        <Require feature="minimessage"/>
-    </ModulePrefs>
+    <ModulePrefs title="Jam Open BO"> </ModulePrefs>
     <Content type="html" href="https://www.google.cl"/>
     </Content>
 </Module>
