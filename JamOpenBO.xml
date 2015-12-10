@@ -3,11 +3,6 @@
 <Module specificationVersion='2'>
     <ModulePrefs title="Jam - SAP BO" height="600" width="800" author="Henley SPA" description="Gadget para documento Webintelligence">
     </ModulePrefs>
-    <Content type="html">
-        <![CDATA[
-            <Script language="javascript">
-                 alert ("Mi primer programa en Javascript");
-            </Script>
-        ]]>
+    <Content type="html" href="JamOpenBO.html">
     </Content>
 </Module>
