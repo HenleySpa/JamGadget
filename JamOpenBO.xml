@@ -7,6 +7,6 @@
         <Require feature="dynamic-height"/>
         <Require feature="minimessage"/>
     </ModulePrefs>
-    <Content type="html" href="JamOpenBO.html"/>
+    <Content type="html" href="www.google.html"/>
     </Content>
 </Module>
