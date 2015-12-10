@@ -39,44 +39,8 @@
         if (node.Attributes["name"].Value == "auth")
             node.InnerText = auth;
     }
-   //Making POST request to /logon/long to receive a logon token
-   WebRequest myWebRequest1 = WebRequest.Create(LogonURI);
-   myWebRequest1.ContentType = "application/xml";
-   myWebRequest1.Method = "POST";
- 
-   byte[] reqBodyBytes = System.Text.Encoding.Default.GetBytes(doc.OuterXml); 
- 
-   Stream reqStream = myWebRequest1.GetRequestStream();
-   reqStream.Write(reqBodyBytes, 0, reqBodyBytes.Length);
-   reqStream.Close();
-   try
-   {
-       WebResponse myWebResponse1 = myWebRequest1.GetResponse();
-       StreamReader sr1 = new StreamReader(myWebResponse1.GetResponseStream());
-       string output1 = sr1.ReadToEnd();
-       doc.LoadXml(output1);
- 
-       XmlNodeList nodelist1 = doc.GetElementsByTagName("attr");
-       if (nodelist1[0].Attributes["name"].Value== "logonToken")
-       {
-       //Finding the value of the logonToken
-           logonToken = nodelist1[0].InnerText;
-       //Encoding the logonToken
-           string encodedToken = Server.UrlEncode(logonToken);
-       //Appending the encoded token to the OpenDocument URL
-           string finalUrl = docURL + "&X-SAP-LogonToken=" + encodedToken;
- 
-           Response.Redirect(finalUrl);
-       }
-       
-   }
-   catch (WebException err)
-   {
-       //error while accessing the network through a pluggable protocol
-       Response.Write("<b>" + err.Message + "</b>");
-   }
-   catch (Exception err)
-   {
-       //generic error
-       Response.Write("<b>" + err.Message + "</b>");
-   }
+
+function Hello ()
+    {
+        alert(node.Attributes["name"].Value)
+    }
