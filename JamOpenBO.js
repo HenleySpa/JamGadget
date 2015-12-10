@@ -14,3 +14,5 @@ function GETWEBIURL()
   alert(urld);
   
 }
+
+GETWEBIURL();
