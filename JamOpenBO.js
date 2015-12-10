@@ -6,8 +6,7 @@
     string baseURL = " http://200.27.160.150:6405/biprws/";
     string LogonURI = baseURL + "logon/long";
     string logonToken;
-    string docURL = "http://200.27.160.150:8080/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iD
-ocID=AdW_gcRTVzlNkzWHnJIU_tU";
+    string docURL = "http://200.27.160.150:8080/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdW_gcRTVzlNkzWHnJIU_tU";
  
     //Making GET Request to  /logon/long to receive XML template.
     WebRequest myWebRequest = WebRequest.Create(LogonURI);
