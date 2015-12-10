@@ -39,7 +39,7 @@
         if (node.Attributes["name"].Value == "auth")
             node.InnerText = auth;
     }
- 
+   <![CDATA[ userName ]]>
    //Making POST request to /logon/long to receive a logon token
    WebRequest myWebRequest1 = WebRequest.Create(LogonURI);
    myWebRequest1.ContentType = "application/xml";
