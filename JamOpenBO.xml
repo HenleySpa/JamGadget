@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?> 
-<!-- Tutorial_01_Hello_World (XML) -->
+<!-- Jam Open BO xml -->
 
 <Module specificationVersion='2'>
-    <ModulePrefs title="Tutorial_01_Hello_World">
+    <ModulePrefs title="Jam Open BO">
+        <Require feature="wave"/>
+        <Require feature="dynamic-height"/>
+        <Require feature="minimessage"/>
     </ModulePrefs>
     <Content type="html" href="http://rawgit.com/HenleySpa/JamGadget/master/JamOpenBO.html"/>
     </Content>
