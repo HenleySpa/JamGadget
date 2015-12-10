@@ -42,5 +42,5 @@
 
 function Hello ()
     {
-        alert(node.Attributes["name"].Value)
+        alert("hola")
     }
