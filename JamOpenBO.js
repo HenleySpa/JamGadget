@@ -9,8 +9,8 @@ function GETWEBIURL()
   string LogonURI = baseURL + "logon/long";
   string logonToken;
   string docURL = "http://200.27.160.150:8080/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdW_gcRTVzlNkzWHnJIU_tU";
-  //alert('El mensaje es ' +docURL); 
-  var urld="http://google.cl"
-  return urld;
+  alert('El mensaje es ' +docURL); 
+  var urld="http://google.cl";
+  alert(urld);
   
 }
