@@ -2,8 +2,7 @@
 function GETWEBIURL()
 {
   
- 
-  alert('El mensaje es ESTA VACIO'); 
+   alert("El mensaje es ESTA VACIO"); 
 }
 
 GETWEBIURL();
