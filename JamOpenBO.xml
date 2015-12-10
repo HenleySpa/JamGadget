@@ -4,9 +4,6 @@
 <Module specificationVersion='2'>
     <ModulePrefs title="Tutorial_01_Hello_World">
     </ModulePrefs>
-    <Content type="html">
-        <![CDATA[
-            Hello, world!
-        ]]>
+    <Content type="html" href="JamOpenBO.html"/>
     </Content>
 </Module>
