@@ -10,7 +10,7 @@ function GETWEBIURL()
   var logonToken;
   var docURL = "http://200.27.160.150:8080/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdW_gcRTVzlNkzWHnJIU_tU";
  
-   alert("El mensaje es ESTA VACIO"+userVame); 
+   alert("ENo"+userVame); 
 }
 
 GETWEBIURL();
