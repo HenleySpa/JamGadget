@@ -2,5 +2,5 @@
 
 function Hello ()
     {
-        alert("hola");
+        [CDATA[Hello, world!]];
     }
