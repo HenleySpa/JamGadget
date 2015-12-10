@@ -42,5 +42,5 @@
 
 function Hello ()
     {
-        alert("hola")
+        alert("hola");
     }
