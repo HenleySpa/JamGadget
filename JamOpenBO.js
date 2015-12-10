@@ -1,6 +1,6 @@
 //JS para login SAP BO /
 
-    string userName = "administrator";
+    string userName = "Administrator";
     string password = "elegur2012";
     string auth = "secEnterprise";       
     string baseURL = " http://200.27.160.150:6405/biprws/";
