@@ -27,9 +27,9 @@ function glogin()
 	ptoken.send(sxml);
 	dtoken=encodeURI(ptoken.getResponseHeader('X-SAP-LogonToken'));
 	
-	//alert(ptoken.responseText);
+	alert(ptoken.responseText);
     	login=docURL+'&'+dtoken;
-	openurl(login);
+	//openurl(login);
 
 }
 
