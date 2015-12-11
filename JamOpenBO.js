@@ -25,7 +25,7 @@ function getwebiurl()
 	var login;
 	//popupwebi(docURL);
 	//popupwebi(LogonURI);
-	popuwebi("htto://google.cl");
+	popuwebi("http://google.cl");
 
 	
 	
