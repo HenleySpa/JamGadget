@@ -23,23 +23,9 @@ function getwebiurl()
 	var LogonURI = baseURL + "logon/long";
 	var docURL = "http://200.27.160.150:8080/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdW_gcRTVzlNkzWHnJIU_tU";
 	var login;
-	//popupwebi(docURL,"Reporte Ejemplo");
+	popupwebi(docURL);
 	//popupwebi(LogonURI);
-	//Making GET Request to  /logon/long to receive XML template.
-    WebRequest myWebRequest = WebRequest.Create(LogonURI);
-    myWebRequest.ContentType = "application/xml";
-    myWebRequest.Method = "GET";
-	//Returns the response to the request made
-    WebResponse myWebResponse = myWebRequest.GetResponse();
-//Creating an instance of StreamReader to read the data stream from the resource
-    StreamReader sr = new StreamReader(myWebResponse.GetResponseStream());
-//Reads all the characters from the current position to the end of the stream and store it as string
-    string output = sr.ReadToEnd();
-    //Initialize a new instance of the XmlDocument class
-    XmlDocument doc = new XmlDocument();
-//Loads the document from the specified URI
-    doc.LoadXml(output);
-	escribir=document.getElementID(output);
+
 	
 	
 	
