@@ -9,7 +9,7 @@ function openurl(url)
 	   	win.focus();
 }
 
-function gettoken()
+function glogin()
 {
 	var userName="Administrator";
 	var password="elegur2012";
