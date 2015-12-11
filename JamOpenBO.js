@@ -23,9 +23,9 @@ function getwebiurl()
 	var LogonURI = baseURL + "logon/long";
 	var docURL = "http://200.27.160.150:8080/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AdW_gcRTVzlNkzWHnJIU_tU";
 	var login;
-	//popupwebi(docURL);
+	popupwebi(docURL);
 	//popupwebi(LogonURI);
-	popuwebi("http://google.cl");
+
 
 	
 	
