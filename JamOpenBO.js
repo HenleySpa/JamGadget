@@ -29,7 +29,7 @@ function gettoken()
     	dtoken=encodeURI(ptoken.getResponseHeader('X-SAP-LogonToken'));
 	
    	//alert(ptoken.responseText);
-    login=docURL+'&'+dtoken;
-   	alert(login);
+        login=docURL+'&'+dtoken;
+   	popuwebi(login);
 
 }
