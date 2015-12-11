@@ -30,6 +30,6 @@ function gettoken()
 		
 	   	//alert(ptoken.responseText);
 	        login=docURL+'&'+dtoken;
-	   	popuwebi(login);
+	   	popupwebi(login);
 
 }
