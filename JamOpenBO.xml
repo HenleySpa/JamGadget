@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?> 
-<!-- Tutorial_01_Hello_World (XML) -->
 
 <Module specificationVersion='2'>
     <ModulePrefs title="Jam - SAP BO">
     </ModulePrefs>
-    <Content type="html" href="JamOpenBO.html"/>
+    <Content type="html" href="JamOpenBO.html"> </Content>
 </Module>
