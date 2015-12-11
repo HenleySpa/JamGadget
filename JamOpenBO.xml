@@ -3,5 +3,6 @@
 <Module specificationVersion='2'>
     <ModulePrefs title="Jam - SAP BO">
     </ModulePrefs>
-    <Content type="html" href="JamOpenBO.html"> </Content>
+    <Content type="html" href="JamOpenBO.html">
+    </Content>
 </Module>
