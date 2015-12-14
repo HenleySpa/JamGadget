@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?> 
 
 <Module specificationVersion='2'>
-    <ModulePrefs height="300" width="600" title="Jam Gadget - Abrir Reporte Webi" author="Henley SPA" description="Gadget para abrir reporte SAP BO Webintelligence">
+    <ModulePrefs title="Jam Gadget - Abrir Reporte Webi" author="Henley SPA" description="Gadget para abrir reporte SAP BO Webintelligence" height="250">
+        <Require feature="wave"/>
+        <Require feature="dynamic-height"/>
+        <Require feature="minimessage"/>
     </ModulePrefs>
     <Content type="html">
     </Content>
