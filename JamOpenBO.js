@@ -55,7 +55,7 @@ function openurl(url)
 		//reporte=window.open (url,'_self',false)
 		var dimensions = gadgets.window.getViewportDimensions();
     		var html = "Height: " +  dimensions.height + " Width: " + dimensions.width;
-    		document.getElementById("content_div").innerHTML = html;
-		//document.location.href = url;
+    		//document.getElementById("content_div").innerHTML = html;
+		document.location.href = url;
 }
 
