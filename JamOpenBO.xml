@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?> 
 
 <Module specificationVersion='2'>
-    <ModulePrefs title="Jam Gadget - Abrir Reporte Webi" author="Henley SPA" description="Gadget para abrir reporte SAP BO Webintelligence">
+    <ModulePrefs height="300" width="600" title="Jam Gadget - Abrir Reporte Webi" author="Henley SPA" description="Gadget para abrir reporte SAP BO Webintelligence">
     </ModulePrefs>
-    <Content type="html" href="JamOpenBO.html" with="600" height="100">
+    <Content type="html">
     </Content>
 </Module>
