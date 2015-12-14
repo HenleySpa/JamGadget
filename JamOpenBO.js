@@ -53,7 +53,9 @@ function openurl(url)
 	   	//if (window.focus) {reporte.focus()}
 	   	//win.focus();
 		//reporte=window.open (url,'_self',false)
-		document.location.href = url;
+		var dimensions = gadgets.window.getViewportDimensions();
+    		var html = "Height: " +  dimensions.height + " Width: " + dimensions.width;
+    		document.getElementById("content_div").innerHTML = html;
+		//document.location.href = url;
 }
-
 
