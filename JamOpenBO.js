@@ -49,13 +49,13 @@ function gettoken()
 function openurl(url)
 {
 	var reporte;
-	   	reporte=window.open(url,'', 'directories =yes, menubar =yes, status=yes, toolbar=yes, location=yes, status=yes, menubar=yes, scrollbars=yes');
-	   	if (window.focus) {reporte.focus()}
-	   	win.focus();
+	   	//reporte=window.open(url,'', 'directories =yes, menubar =yes, status=yes, toolbar=yes, location=yes, status=yes, menubar=yes, scrollbars=yes');
+	   	//if (window.focus) {reporte.focus()}
+	   	//win.focus();
 		//reporte=window.open (url,'_self',false)
 		//var dimensions = gadgets.window.getViewportDimensions();
     		//var html = "Height: " +  dimensions.height + " Width: " + dimensions.width;
     		//document.getElementById("content_div").innerHTML = html;
-		//document.location.href = url;
+		document.location.href = url;
 }
 
