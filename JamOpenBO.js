@@ -57,5 +57,7 @@ function openurl(url)
     		//var html = "Height: " +  dimensions.height + " Width: " + dimensions.width;
     		//document.getElementById("content_div").innerHTML = html;
 		document.location.href = url;
+		//document.body.innerHTML
+	//document.getElementById("gettoken").contentWindow.location.href
 }
 
